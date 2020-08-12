@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Registration and Login Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<!------------------------------------- Form --------------------------------------------->
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+
+
+<!----------------------------- Sign in ----------------------------------------->			
+			<form action="#">
+				<h1 id="hsu">SIGN UP HERE</h1>
+
+				<div class="social-container">
+					<a href="https://www.facebook.com/" class="social" id="fb"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social" id="gplus"><i class="fab fa-google-plus-g"></i></a>
+					<a href="https://www.linkedin.com/login" class="social" id="lin"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+
+				<span>or use your email for registration</span>
+				
+					<input type="text" placeholder="Enter your fullname" />
+					<input type="email" placeholder="Enter your Email" />
+					<input type="tel" placeholder="Enter your Phone Number">
+					<input type="password" placeholder="Password" />
+					<input type="password" placeholder="Enter your Password again" />
+				
+
+				<button id="su">Sign Up</button>
+			</form>
+		</div>
+
+		<div class="form-container sign-in-container">
+			<form action="#">
+<!---------------------------------- Sign in -------------------------------->
+				<h1 id="hsi">SIGN IN</h1>
+				<div class="social-container">
+					<a href="https://www.facebook.com/" class="social" id="fb"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social" id="gplus"><i class="fab fa-google-plus-g"></i></a>
+					<a href="https://www.linkedin.com/login" class="social" id="lin"><i class="fab fa-linkedin-in"></i></a>
+				</div>
+				<span>or use your account</span>
+				<input type="email" placeholder="Email" id="em" />
+				<input type="password" placeholder="Password" />
+				<a href="#"><strong>Forgot your password? </strong> </a>
+				<button id="si">Sign In</button>
+			</form>
+		</div>
+<!--------------------------- Overlay-container --------------------------------->
+
+		<div class="overlay-container">
+			<div class="overlay">
+		<!--------------------------- Overlay Left --------------------------------->
+				<div class="overlay-panel overlay-left">
+					<h1>Welcome Back!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+		<!--------------------------- Overlay Right --------------------------------->
+				<div class="overlay-panel overlay-right">
+					<h1>Greetings!</h1>
+					<p>Enter your personal details and start journey with us.<br><br>
+						<strong>Already have an account?</strong> 
+					</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<!------------------------------------- Form End ------------------------------------------>
+	<script src="script.js"></script>
+<!-------<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>---->
+
+</body>
+</html>
